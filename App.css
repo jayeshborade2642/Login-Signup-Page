@@ -1,0 +1,139 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+/* font for the whole app */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* center the card */
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #667eea, #764ba2);
+}
+
+/* Card styling */
+.card {
+  width: 320px;
+  padding: 25px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+/* Heading */
+.card h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Input fields */
+input {
+  width: 90%;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+/* Button styling */
+button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 15px;
+  background-color: #667eea;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+/* Button hover */
+button:hover {
+  background-color: #5a67d8;
+  color: white;
+}
+
+/* Error message */
+.error {
+  color: red;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+/* Switch text */
+p {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+p button {
+  background: none;
+  color: #667eea;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.checkbox input {
+  width: auto;
+  margin-right: 5px;
+}
